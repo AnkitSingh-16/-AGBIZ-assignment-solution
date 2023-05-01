@@ -1,0 +1,108 @@
+.career-page {
+    background-color: bisque;
+   overflow: auto; 
+}
+.div-career {
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.heading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.dcr-content {
+    color: black;
+    opacity: 0.7;
+}
+
+
+
+
+.career-content {
+    display: flexbox;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 60px;
+    
+}
+
+.vertical {
+    border-left: 5px solid rgb(255, 153, 0);
+    height: 100px;
+    justify-content: center;
+    left: 50%;
+}
+
+.heading-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head-name {
+    display: grid;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.career-grid-container {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    justify-items: center;
+    margin-top: 20px;
+    aspect-ratio: 2/1;
+    
+  
+
+}
+
+.career-grid-item {
+    display: grid;
+    height: 175px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.grid-item-title {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-title-dcr {
+    opacity: 0.9;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.grid-item-icon{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 55px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 10px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+
+}
+
+.item-2{
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgb(117, 73, 19); 
+    border-radius: 1rem;
+}

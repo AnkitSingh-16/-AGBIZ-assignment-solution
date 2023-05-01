@@ -1,0 +1,66 @@
+.course-page{
+background-color: rgba(182, 215, 235, 0.039);
+overflow: auto;
+min-height: 150vh;
+}
+
+.heading-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.course-grid-container{
+    display: flex;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    overflow: auto;
+    margin-right: 50px;
+    overflow: auto;
+}
+
+.course-grid-item{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+   
+    
+}
+
+.course-grid-item2{
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo{
+    width: 150%;
+    height: fit-content;
+    justify-content:center;
+    border-radius: 1rem;
+    margin-left: 30px;
+    aspect-ratio: 4/3;
+}
+
+.logo2{
+    justify-content: center;
+    width: 10%;
+    
+}
+
+.list-heading{
+
+    text-align: center;
+    text-overflow: clip;
+    color: rgb(233, 6, 67);
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
